@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin-Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="counter-app">
+        <h1 class="coin">Coin counter</h1>
+        <h2 id="counter-el">0</h2>
+        <div class="mario">
+            <button class="bit-coin" id="increment-btn" onclick="increment()">+1 Coin</button>
+            <button  class="bit-coin" id="save-btn" onclick="save()">Next Bag</button>
+            <button class="bit-coin" id="delete-el" onclick="clean()">Reset</button>
+          </div>
+    </div>
+    <p id="save-el">Filled-bags: </p>
+    <script src="coin.js"></script>
+</body>
+</html>
